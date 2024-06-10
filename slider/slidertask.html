@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SLIDER TASK</title>
+</head>
+<script type="text/javascript">
+	// function slider(ele){
+	// 	let x = document.getElementById('slide');
+	// 	x.src = "i1"+ele;
+	// }
+	for(let i = 1; i <= 4; i++){
+		setTimeout(function() {
+			let x = document.getElementById('slide');
+			x.src = "i"+i+".jpg";
+		}, 3000);
+	}
+</script>
+<body>
+	<div style="height:500px; width:100%; border: solid;">
+		<img src="i1.jpg" style="height: 100%; width: 100%;" id="slide"> 
+	</div>
+		<img src="i3.jpg" style="height: 100%; width: 100%;"> 
+
+</body>
+</html>
